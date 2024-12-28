@@ -35,11 +35,15 @@ Per poter implementare il codice seguire i seguenti step:
 
 1. Clonare il repository in locale
 
-'git clone'
+```bash
+git clone
+```
 
 2. Installare tutte le librerie necessarie presenti all'interno del file *requirements.txt*
 
-'pip install -r requirements.txt'
+```bash
+pip install -r requirements.txt'
+```
 
 
 
