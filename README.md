@@ -45,7 +45,7 @@ python3 --version
 git clone https://github.com/Ele9999/progFIA.git
 ```
 
-3. Installare tutte le librerie necessarie presenti all'interno del file *requirements.txt*
+3. Installare tutti i moduli necessari presenti all'interno del file *requirements.txt*
 
 ```bash
 pip install -r requirements.txt'
