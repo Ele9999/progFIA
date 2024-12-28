@@ -44,6 +44,15 @@ git clone
 ```bash
 pip install -r requirements.txt'
 ```
+3. Assicurarsi di stare in ambiente python per eseguire il codice
+
+4. Eseguire, rispettando l'ordine, le celle presenti all'interno del file *Progetto_ok.ipynb* se si desidera vedere punto punto il codice
+
+5. Altrimenti, eseguire il codice *Progetto_ok.py*
+
+```bash
+python3 Progetto_ok.py
+```
 
 
 
