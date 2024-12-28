@@ -33,18 +33,23 @@ Come **metodo di validazione**, invece, si è optato per il *cross-validation*
 
 Per poter implementare il codice seguire i seguenti step:
 
-1. Clonare il repository in locale
+1. Assicurarsi di avere python installato
 
 ```bash
-git clone
+python3 --version
 ```
 
-2. Installare tutte le librerie necessarie presenti all'interno del file *requirements.txt*
+2. Clonare il repository in locale
+
+```bash
+git clone https://github.com/Ele9999/progFIA.git
+```
+
+3. Installare tutte le librerie necessarie presenti all'interno del file *requirements.txt*
 
 ```bash
 pip install -r requirements.txt'
 ```
-3. Assicurarsi di stare in ambiente python per eseguire il codice
 
 4. Eseguire, rispettando l'ordine, le celle presenti all'interno del file *Progetto_ok.ipynb* se si desidera vedere punto punto il codice
 
