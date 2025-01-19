@@ -25,7 +25,7 @@ Infine, si è eseguita una valutazione del modello attraverso le seguenti **metr
 * *Accuratezza*
 * *Precisione*
 * *Recall*
-* *f1*
+* *f1-score*
 
 Per osservare meglio le performance si è utilizzata la **matrice di confusione** e la **curva ROC**
 
