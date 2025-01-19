@@ -15,11 +15,11 @@ Dentro alla folder **data-istruzioni** sono presenti i seguenti file:
 
 ## Descrizione del progetto
 
-Per svolgere al meglio il progetto si è effettuato un **pre-processing** sui dati, andando a eliminare le colonne irrilevanti ai fini computazionali e andando a sostituire le celle vuote (NaN) del dataset con la media.
+Per svolgere al meglio il progetto si è effettuato un **data cleaning** sui dati, andando a eliminare le colonne irrilevanti ai fini computazionali e andando a sostituire le celle vuote (NaN) del dataset con la media.
 
-Per la **features selection** è stato utilizzato *SelectKBest* con la funzione f_classif, che valuta la relazione tra ogni feature e la variabile target (nel nostro caso, Recidiva/Non Recidiva) usando l'analisi della varianza
+Per la **features selection** non è stata necessaria dato che gli algoritmi implementati sono efficienti per alta dimensionalità del dataset
 
-Come **modello di machine learning** si è optato per il *Random Forest*
+Come **modello di machine learning** si è optato per il *Support Vector Machine (SVC)* dopo averlo confrontato con il *Random Forest*
 
 Infine, si è eseguita una valutazione del modello attraverso le seguenti **metriche di valutazione**:
 * *Accuratezza*
@@ -27,7 +27,7 @@ Infine, si è eseguita una valutazione del modello attraverso le seguenti **metr
 * *Recall*
 * *f1*
 
-Come **metodo di validazione**, invece, si è optato per il *cross-validation*
+Per osservare meglio le performance si è utilizzata la **matrice di confusione** e la **curva ROC**
 
 ## Implementazione del codice
 
@@ -51,12 +51,14 @@ git clone https://github.com/Ele9999/progFIA.git
 pip install -r requirements.txt'
 ```
 
-4. Eseguire, rispettando l'ordine, le celle presenti all'interno del file *Progetto_ok.ipynb* se si desidera vedere punto punto il codice
+4. Se si vuole visualizzare direttamente il codice con il modello più performante, vedere *SVC_senza_val.ipynb* (la sua variante *SVC_con_val* ha risultati meno performanti)
 
-5. Altrimenti, eseguire il codice *Progetto_ok.py*
+5. Se si vuole visualizzare il confronto tra i due modelli, Random Forest e SVC, vedere *RF_vs_SVC*
+
+6. Se si vuole semplicemente eseguire il codice e vedere i risultati:
 
 ```bash
-python3 Progetto_ok.py
+python3 Progetto.py
 ```
 
 
