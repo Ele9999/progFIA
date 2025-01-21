@@ -51,7 +51,7 @@ git clone https://github.com/Ele9999/progFIA.git
 pip install -r requirements.txt'
 ```
 
-4. Se si vuole visualizzare direttamente il codice con il modello più performante, vedere *SVC_senza_val.ipynb* (la sua variante *SVC_con_val* ha risultati meno performanti)
+4. Se si vuole visualizzar il codice passo passo, vedere *SVC.ipynb*
 
 5. Se si vuole visualizzare il confronto tra i due modelli, Random Forest e SVC, vedere *RF_vs_SVC*
 
